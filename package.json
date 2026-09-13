@@ -1,14 +1,29 @@
 {
-  "devDependencies": {
-    "typescript": "^7.0.2"
-  },
   "name": "node5250",
-  "version": "1.0.0",
-  "description": "",
-  "main": "main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "version": "0.0.1",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
   },
-  "author": "",
-  "license": "ISC"
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "typecheck": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@tsconfig/strictest": "^2.0.8",
+    "tsup": "^8.5.1",
+    "typescript": "^7.0.2"
+  }
 }
