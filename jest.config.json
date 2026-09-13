@@ -1,0 +1,16 @@
+{
+  "testEnvironment": "node",
+  "transform": {
+    "^.+\\.ts$": ["@swc/jest", {
+      "module": {
+        "type": "commonjs"
+      }
+    }]
+  },
+  "moduleNameMapper": {
+    "^(\\.{1,2}/.*)\\.(js|ts)$": "$1"
+  },
+  "testMatch": [
+    "<rootDir>/src/**/*.test.ts"
+  ]
+}

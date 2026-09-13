@@ -1,1 +1,4 @@
-console.log("hello world")
+import { Emulator } from "./emulator/index.ts";
+
+const emulator = new Emulator()
+emulator.connect()

@@ -3,8 +3,11 @@
   "compilerOptions": {
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
-    "noEmit": true,
-    "allowImportingTsExtensions": true
+    "noEmit": false,
+    "emitDeclarationOnly": true,
+    "declaration": true,
+    "allowImportingTsExtensions": true,
+    "skipLibCheck": true
   },
   "include": ["src/**/*"]
 }

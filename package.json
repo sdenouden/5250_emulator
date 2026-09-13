@@ -19,10 +19,17 @@
     "build": "tsup",
     "dev": "tsup --watch",
     "typecheck": "tsc",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "devDependencies": {
+    "@swc/core": "^1.16.2",
+    "@swc/jest": "^0.2.39",
     "@tsconfig/strictest": "^2.0.8",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^26.5.1",
+    "jest": "^30.5.1",
     "tsup": "^8.5.1",
     "typescript": "^7.0.2"
   }
