@@ -1,4 +1,3 @@
-
 Network Working Group                                          J. Postel
 Request for Comments: 854                                    J. Reynolds
                                                                      ISI
@@ -851,4 +850,3 @@ CONNECTION ESTABLISHMENT
 
 
 Postel & Reynolds                                              [Page 15]
-

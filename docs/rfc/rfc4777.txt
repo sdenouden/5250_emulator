@@ -1,9 +1,3 @@
-
-
-
-
-
-
 Network Working Group                                     T. Murphy, Jr.
 Request for Comments: 4777                                      P. Rieth
 Obsoletes: 2877                                               J. Stevens
@@ -2632,4 +2626,3 @@ Acknowledgement
 
 
 Murphy, et al.               Informational                     [Page 47]
-
